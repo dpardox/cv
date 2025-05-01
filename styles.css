@@ -32,7 +32,13 @@ body {
 }
 
 
-/* measures */
+/**
+ * measures as a Tailwind CSS utility class
+ * 
+ * Fx: (n px / 1 rem) * 4
+ * Ex: (16 / 16) * 4 = 4
+ * Ex: (48 / 16) * 4 = 12
+ */
 
 .p-12 {
   padding: 3rem;
@@ -48,11 +54,11 @@ body {
   padding-left: 3rem;
 }
 
-.mt-1 {
+.mt-4 {
   margin-top: 1rem;
 }
 
-.mb-1 {
+.mb-4 {
   margin-bottom: 1rem;
 }
 
